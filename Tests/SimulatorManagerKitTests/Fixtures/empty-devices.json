@@ -1,0 +1,4 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED. A machine with Xcode installed but no simulator devices created. Dashboard must render an honest empty state, not an error and not a misleading zero-byte 'you could recover 0 GB' pitch.",
+  "devices": {}
+}

@@ -1,0 +1,4 @@
+{
+  "_fixtureNote": "CAPTURED VERBATIM from `xcrun simctl list pairs --json` on the Phase 0 machine (Xcode 26.6, no watchOS runtime installed). This is the common case and must parse to zero pairs without error.",
+  "pairs": {}
+}

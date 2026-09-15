@@ -1,0 +1,39 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED. Three devices sharing an identical deviceTypeIdentifier + runtime pair, which is the Rule D trigger. Sizes and boot history deliberately differ so a 'which copy to keep' decision has something to sort on: one is actively used, two are never-booted duplicates. Rule D must flag for review and never auto-target all three.",
+  "devices": {
+    "com.apple.CoreSimulator.SimRuntime.iOS-26-5": [
+      {
+        "lastBootedAt": "2026-09-11T18:36:50Z",
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/C1111111-1111-4111-8111-111111111111/data",
+        "dataPathSize": 4381171712,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/C1111111-1111-4111-8111-111111111111",
+        "udid": "C1111111-1111-4111-8111-111111111111",
+        "isAvailable": true,
+        "logPathSize": 684032,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17",
+        "state": "Shutdown",
+        "name": "iPhone 17"
+      },
+      {
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/C2222222-2222-4222-8222-222222222222/data",
+        "dataPathSize": 18337792,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/C2222222-2222-4222-8222-222222222222",
+        "udid": "C2222222-2222-4222-8222-222222222222",
+        "isAvailable": true,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17",
+        "state": "Shutdown",
+        "name": "iPhone 17 copy"
+      },
+      {
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/C3333333-3333-4333-8333-333333333333/data",
+        "dataPathSize": 18337792,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/C3333333-3333-4333-8333-333333333333",
+        "udid": "C3333333-3333-4333-8333-333333333333",
+        "isAvailable": true,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17",
+        "state": "Shutdown",
+        "name": "iPhone 17 (2)"
+      }
+    ]
+  }
+}

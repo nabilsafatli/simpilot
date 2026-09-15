@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sparkle's keys cannot be supplied through INFOPLIST_KEY_* build settings:
+	     Xcode only forwards a fixed allowlist and silently drops anything else,
+	     so this file exists purely to carry them. GENERATE_INFOPLIST_FILE stays
+	     on, and Xcode merges its generated keys over this base. -->
+
+	<!-- Where the app looks for updates. Served from the repository's default
+	     branch, so publishing an update is a commit rather than a deployment. -->
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/nabilsafatli/simpilot/main/appcast.xml</string>
+
+	<!-- The public half of the EdDSA pair. Safe to publish: it only lets the app
+	     verify that an update was signed by the matching private key, which never
+	     leaves the login keychain of the machine that builds releases. -->
+	<key>SUPublicEDKey</key>
+	<string>CRlAh0Is6aa15ynsGc9KPVHOinL5jOFicesuXfKd0J0=</string>
+
+	<!-- Checking is opt-in. Sparkle asks on first launch rather than enabling
+	     automatic checks silently, which is the honest default for a tool whose
+	     whole premise is not doing things behind the user's back. -->
+	<key>SUEnableAutomaticChecks</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED for Rule E, which the multi-platform fixture deliberately cannot exercise: every older runtime there is undeletable, to prove deletability is read from simctl rather than inferred. Here iOS 17.5 IS deletable, is older than the installed iOS 26.5, and was last used long ago — the only combination Rule E is allowed to act on. watchOS 11.2 is present and unused but has no newer watchOS installed, so it must NOT fire: a newer runtime on one platform says nothing about another.",
+  "runtimes": [
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+      "name": "iOS 26.5", "version": "26.5", "buildversion": "23F77",
+      "platform": "iOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "lastUsage": { "arm64": "2026-09-11T18:36:50Z" },
+      "supportedDeviceTypes": []
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.iOS-17-5",
+      "name": "iOS 17.5", "version": "17.5", "buildversion": "21F79",
+      "platform": "iOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "lastUsage": { "arm64": "2025-01-15T09:00:00Z" },
+      "supportedDeviceTypes": []
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.watchOS-11-2",
+      "name": "watchOS 11.2", "version": "11.2", "buildversion": "22S99",
+      "platform": "watchOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "supportedDeviceTypes": []
+    }
+  ]
+}

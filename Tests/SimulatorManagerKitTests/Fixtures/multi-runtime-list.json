@@ -1,0 +1,57 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED companion to multi-platform-runtimes.json, in the shape of `simctl runtime list --json` (UUID-keyed, unlike `simctl list runtimes`). Deliberately does NOT contain every runtime from that file: iOS 16.4 is absent, standing in for a bundled/undeletable runtime that has no deletable disk image. Joining on runtimeIdentifier must leave iOS 16.4 with a nil imageUUID and isDeletable == false. Note iOS 18.2 carries deletable=false to prove the flag is read from simctl, never inferred from age or size.",
+  "39BDD188-94B4-4FB2-B91F-59208B8597FE": {
+    "identifier": "39BDD188-94B4-4FB2-B91F-59208B8597FE",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+    "version": "26.5", "build": "23F77", "state": "Ready",
+    "deletable": true, "sizeBytes": 8494282293,
+    "kind": "Patchable Cryptex Disk Image",
+    "lastUsedAt": "2026-09-11T18:36:50Z",
+    "mountPath": "/Library/Developer/CoreSimulator/Volumes/iOS_23F77",
+    "platformIdentifier": "com.apple.platform.iphonesimulator",
+    "signatureState": "Verified",
+    "supportedArchitectures": ["arm64"]
+  },
+  "7A2C0E11-0000-4000-8000-000000000002": {
+    "identifier": "7A2C0E11-0000-4000-8000-000000000002",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-2",
+    "version": "18.2", "build": "22C150", "state": "Ready",
+    "deletable": false, "sizeBytes": 7620035430,
+    "kind": "Bundled with Xcode",
+    "lastUsedAt": "2026-09-10T11:02:31Z",
+    "platformIdentifier": "com.apple.platform.iphonesimulator",
+    "signatureState": "Verified",
+    "supportedArchitectures": ["arm64"]
+  },
+  "7A2C0E11-0000-4000-8000-000000000003": {
+    "identifier": "7A2C0E11-0000-4000-8000-000000000003",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.watchOS-11-2",
+    "version": "11.2", "build": "22S99", "state": "Ready",
+    "deletable": true, "sizeBytes": 3221225472,
+    "kind": "Disk Image",
+    "lastUsedAt": "2026-08-30T14:20:00Z",
+    "platformIdentifier": "com.apple.platform.watchsimulator",
+    "signatureState": "Verified",
+    "supportedArchitectures": ["arm64"]
+  },
+  "7A2C0E11-0000-4000-8000-000000000004": {
+    "identifier": "7A2C0E11-0000-4000-8000-000000000004",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.tvOS-18-2",
+    "version": "18.2", "build": "22K154", "state": "Ready",
+    "deletable": true, "sizeBytes": 5368709120,
+    "kind": "Disk Image",
+    "platformIdentifier": "com.apple.platform.appletvsimulator",
+    "signatureState": "Verified",
+    "supportedArchitectures": ["arm64"]
+  },
+  "7A2C0E11-0000-4000-8000-000000000005": {
+    "identifier": "7A2C0E11-0000-4000-8000-000000000005",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.xrOS-2-2",
+    "version": "2.2", "build": "22N255", "state": "Ready",
+    "deletable": true, "sizeBytes": 9663676416,
+    "kind": "Disk Image",
+    "platformIdentifier": "com.apple.platform.xrsimulator",
+    "signatureState": "Verified",
+    "supportedArchitectures": ["arm64"]
+  }
+}

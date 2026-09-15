@@ -1,0 +1,18 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED. Only the EMPTY form {\"pairs\":{}} was observed during Phase 0 (the capture machine has no watchOS runtime), so the populated shape here is unverified against real simctl output. Parsing must tolerate an empty dictionary and must not hard-fail on unknown keys. The phone C1111111... is deliberately also the actively-used duplicate in duplicate-devices.json, so a pairing hazard and a duplicate recommendation can collide in tests.",
+  "pairs": {
+    "F0000000-0000-4000-8000-00000000000A": {
+      "watch": {
+        "name": "Apple Watch Series 10 (46mm)",
+        "udid": "E1111111-1111-4111-8111-111111111111",
+        "state": "Shutdown"
+      },
+      "phone": {
+        "name": "iPhone 17",
+        "udid": "C1111111-1111-4111-8111-111111111111",
+        "state": "Shutdown"
+      },
+      "state": "(active, disconnected)"
+    }
+  }
+}

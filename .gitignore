@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+build/
+
+# Account-specific configuration, deliberately untracked
+scripts/release.env
+Simpilot/Config/Local.xcconfig

@@ -1,0 +1,32 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED companion to redundant-runtimes.json, in `simctl runtime list --json` shape. All three are deletable, so nothing in Rule E's outcome can be attributed to the deletability flag — only to age, platform and usage.",
+  "39BDD188-94B4-4FB2-B91F-59208B8597FE": {
+    "identifier": "39BDD188-94B4-4FB2-B91F-59208B8597FE",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+    "version": "26.5", "build": "23F77", "state": "Ready",
+    "deletable": true, "sizeBytes": 8494282293,
+    "kind": "Patchable Cryptex Disk Image",
+    "lastUsedAt": "2026-09-11T18:36:50Z",
+    "platformIdentifier": "com.apple.platform.iphonesimulator",
+    "supportedArchitectures": ["arm64"]
+  },
+  "7A2C0E11-0000-4000-8000-000000000017": {
+    "identifier": "7A2C0E11-0000-4000-8000-000000000017",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-17-5",
+    "version": "17.5", "build": "21F79", "state": "Ready",
+    "deletable": true, "sizeBytes": 6871947673,
+    "kind": "Disk Image",
+    "lastUsedAt": "2025-01-15T09:00:00Z",
+    "platformIdentifier": "com.apple.platform.iphonesimulator",
+    "supportedArchitectures": ["arm64"]
+  },
+  "7A2C0E11-0000-4000-8000-000000000011": {
+    "identifier": "7A2C0E11-0000-4000-8000-000000000011",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.watchOS-11-2",
+    "version": "11.2", "build": "22S99", "state": "Ready",
+    "deletable": true, "sizeBytes": 3221225472,
+    "kind": "Disk Image",
+    "platformIdentifier": "com.apple.platform.watchsimulator",
+    "supportedArchitectures": ["arm64"]
+  }
+}

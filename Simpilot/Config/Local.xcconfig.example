@@ -1,0 +1,10 @@
+// Copy to Local.xcconfig (untracked) and fill in.
+//
+// Keeps account-specific settings out of the Xcode project, so opening this in
+// Xcode and picking a team does not write that team back into a tracked file.
+//
+// Not a secret: the Team ID is embedded in every Developer ID signature and can
+// be read from any released build with `codesign -dv`.
+
+// security find-identity -v -p codesigning | grep 'Developer ID Application'
+DEVELOPMENT_TEAM =

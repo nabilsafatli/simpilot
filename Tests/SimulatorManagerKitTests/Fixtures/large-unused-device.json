@@ -1,0 +1,39 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED. Rule C input: a large device with no lastBootedAt at all (never booted), alongside a large device that WAS booted recently, and a small never-booted device. Only the first should score above Rule B alone; the recently-booted one must not be flagged despite its size, and the small one must not be flagged on size.",
+  "devices": {
+    "com.apple.CoreSimulator.SimRuntime.iOS-26-5": [
+      {
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/D1111111-1111-4111-8111-111111111111/data",
+        "dataPathSize": 21474836480,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/D1111111-1111-4111-8111-111111111111",
+        "udid": "D1111111-1111-4111-8111-111111111111",
+        "isAvailable": true,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-12GB",
+        "state": "Shutdown",
+        "name": "iPad Pro 13-inch (M5) large never booted"
+      },
+      {
+        "lastBootedAt": "2026-09-12T09:15:00Z",
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/D2222222-2222-4222-8222-222222222222/data",
+        "dataPathSize": 19327352832,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/D2222222-2222-4222-8222-222222222222",
+        "udid": "D2222222-2222-4222-8222-222222222222",
+        "isAvailable": true,
+        "logPathSize": 991232,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+        "state": "Booted",
+        "name": "iPhone 17 Pro large actively used"
+      },
+      {
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/D3333333-3333-4333-8333-333333333333/data",
+        "dataPathSize": 18337792,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/D3333333-3333-4333-8333-333333333333",
+        "udid": "D3333333-3333-4333-8333-333333333333",
+        "isAvailable": true,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17e",
+        "state": "Shutdown",
+        "name": "iPhone 17e small never booted"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED from the real captured schema. supportedDeviceTypes is trimmed to one or two entries per runtime for readability; the real capture in runtimes.json carries the full list. Covers what a working developer's machine looks like and this one does not: four platforms, an unavailable runtime, and two iOS versions where the older is still in use. Rule E must not assume the newest iOS obsoletes iOS 18.",
+  "runtimes": [
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+      "name": "iOS 26.5", "version": "26.5", "buildversion": "23F77",
+      "platform": "iOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "lastUsage": { "arm64": "2026-09-11T18:36:50Z" },
+      "supportedDeviceTypes": [
+        { "name": "iPhone 17 Pro", "identifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro", "productFamily": "iPhone", "bundlePath": "/Library/Developer/CoreSimulator/Profiles/DeviceTypes/iPhone 17 Pro.simdevicetype" }
+      ]
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-2",
+      "name": "iOS 18.2", "version": "18.2", "buildversion": "22C150",
+      "platform": "iOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "lastUsage": { "arm64": "2026-09-10T11:02:31Z" },
+      "supportedDeviceTypes": [
+        { "name": "iPhone 16 Pro", "identifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro", "productFamily": "iPhone", "bundlePath": "/Library/Developer/CoreSimulator/Profiles/DeviceTypes/iPhone 16 Pro.simdevicetype" }
+      ]
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.iOS-16-4",
+      "name": "iOS 16.4", "version": "16.4", "buildversion": "20E247",
+      "platform": "iOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "supportedDeviceTypes": [
+        { "name": "iPhone 14", "identifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-14", "productFamily": "iPhone", "bundlePath": "/Library/Developer/CoreSimulator/Profiles/DeviceTypes/iPhone 14.simdevicetype" }
+      ]
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.watchOS-11-2",
+      "name": "watchOS 11.2", "version": "11.2", "buildversion": "22S99",
+      "platform": "watchOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "lastUsage": { "arm64": "2026-08-30T14:20:00Z" },
+      "supportedDeviceTypes": [
+        { "name": "Apple Watch Series 10 (46mm)", "identifier": "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm", "productFamily": "Apple Watch", "bundlePath": "/Library/Developer/CoreSimulator/Profiles/DeviceTypes/Apple Watch Series 10 (46mm).simdevicetype" }
+      ]
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.tvOS-18-2",
+      "name": "tvOS 18.2", "version": "18.2", "buildversion": "22K154",
+      "platform": "tvOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "supportedDeviceTypes": [
+        { "name": "Apple TV 4K (3rd generation)", "identifier": "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-3rd-generation-1080p", "productFamily": "Apple TV", "bundlePath": "/Library/Developer/CoreSimulator/Profiles/DeviceTypes/Apple TV 4K (3rd generation).simdevicetype" }
+      ]
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.xrOS-2-2",
+      "name": "visionOS 2.2", "version": "2.2", "buildversion": "22N255",
+      "platform": "xrOS", "isAvailable": true, "isInternal": false,
+      "supportedArchitectures": ["arm64"],
+      "supportedDeviceTypes": [
+        { "name": "Apple Vision Pro", "identifier": "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro", "productFamily": "Apple Vision", "bundlePath": "/Library/Developer/CoreSimulator/Profiles/DeviceTypes/Apple Vision Pro.simdevicetype" }
+      ]
+    },
+    {
+      "identifier": "com.apple.CoreSimulator.SimRuntime.iOS-17-0",
+      "name": "iOS 17.0", "version": "17.0", "buildversion": "21A328",
+      "platform": "iOS", "isAvailable": false, "isInternal": false,
+      "availabilityError": "Runtime is not available",
+      "supportedArchitectures": ["arm64"],
+      "supportedDeviceTypes": []
+    }
+  ]
+}

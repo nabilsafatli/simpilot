@@ -1,0 +1,56 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED, NOT CAPTURED. No machine available during Phase 0 had an unavailable device, so the exact shape of 'availabilityError' is unverified against real simctl output. Parsing MUST therefore key off 'isAvailable' (verified present on every device in real captures) and treat 'availabilityError' as an optional display-only string. Two key forms are included below: a resolvable runtime identifier whose profile is gone, and a bare identifier for a runtime simctl cannot resolve at all.",
+  "devices": {
+    "com.apple.CoreSimulator.SimRuntime.iOS-17-0": [
+      {
+        "availabilityError": "runtime profile not found using \"System\" match policy",
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/A1111111-1111-4111-8111-111111111111/data",
+        "dataPathSize": 3221225472,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/A1111111-1111-4111-8111-111111111111",
+        "udid": "A1111111-1111-4111-8111-111111111111",
+        "isAvailable": false,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-14-Pro",
+        "state": "Shutdown",
+        "name": "iPhone 14 Pro"
+      },
+      {
+        "availabilityError": "runtime profile not found using \"System\" match policy",
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/A2222222-2222-4222-8222-222222222222/data",
+        "dataPathSize": 18337792,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/A2222222-2222-4222-8222-222222222222",
+        "udid": "A2222222-2222-4222-8222-222222222222",
+        "isAvailable": false,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-14",
+        "state": "Shutdown",
+        "name": "iPhone 14"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.watchOS-9-0": [
+      {
+        "availabilityError": "runtime profile not found using \"System\" match policy",
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/A3333333-3333-4333-8333-333333333333/data",
+        "dataPathSize": 524288000,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/A3333333-3333-4333-8333-333333333333",
+        "udid": "A3333333-3333-4333-8333-333333333333",
+        "isAvailable": false,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-45mm",
+        "state": "Shutdown",
+        "name": "Apple Watch Series 8 (45mm)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-26-5": [
+      {
+        "lastBootedAt": "2026-09-07T05:46:17Z",
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/B1111111-1111-4111-8111-111111111111/data",
+        "dataPathSize": 2526879744,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/B1111111-1111-4111-8111-111111111111",
+        "udid": "B1111111-1111-4111-8111-111111111111",
+        "isAvailable": true,
+        "logPathSize": 552960,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+        "state": "Shutdown",
+        "name": "iPhone 17 Pro"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fixtureNote": "HAND-CONSTRUCTED. The negative case for the recommendation engine: one recently-booted, available, modestly-sized device with no duplicate and no unavailable runtime. The engine must return ZERO recommendations. This fixture guards against rules that fire on everything.",
+  "devices": {
+    "com.apple.CoreSimulator.SimRuntime.iOS-26-5": [
+      {
+        "lastBootedAt": "2026-09-12T22:04:11Z",
+        "dataPath": "/Users/dev/Library/Developer/CoreSimulator/Devices/E9999999-9999-4999-8999-999999999999/data",
+        "dataPathSize": 2526879744,
+        "logPath": "/Users/dev/Library/Logs/CoreSimulator/E9999999-9999-4999-8999-999999999999",
+        "udid": "E9999999-9999-4999-8999-999999999999",
+        "isAvailable": true,
+        "logPathSize": 552960,
+        "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+        "state": "Shutdown",
+        "name": "iPhone 17 Pro"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "39BDD188-94B4-4FB2-B91F-59208B8597FE": {
+    "build": "23F77",
+    "deletable": true,
+    "identifier": "39BDD188-94B4-4FB2-B91F-59208B8597FE",
+    "kind": "Patchable Cryptex Disk Image",
+    "lastUsedAt": "2026-09-11T18:36:50Z",
+    "mountPath": "/Library/Developer/CoreSimulator/Volumes/iOS_23F77",
+    "parentMountPath": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/26c9174130fa5962f3e60f2a49963194dadbae4c.asset/AssetData",
+    "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/26c9174130fa5962f3e60f2a49963194dadbae4c.asset/AssetData/Restore/094-56039-099.dmg",
+    "platformIdentifier": "com.apple.platform.iphonesimulator",
+    "runtimeBundlePath": "/Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+    "signatureState": "Verified",
+    "sizeBytes": 8494282293,
+    "state": "Ready",
+    "supportedArchitectures": [
+      "arm64"
+    ],
+    "version": "26.5"
+  }
+}
